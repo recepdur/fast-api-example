@@ -1,15 +1,16 @@
 # fast-api-example
 
-https://medium.com/huawei-developers-tr/fastapi-basit-hizli-ornekle-inceleme-58ac0937531f
+# install libs
+pip install -r requirements.txt
 
-https://www.sisasoft.com.tr/makine-ogrenmesi-modelinin-fast-api-ile-canliya-almaya-hazir-hale-getirilmesi/
-
-python.exe -m pip install --upgrade pip
-
-pip install fastapi
-pip install "uvicorn[standart]"
-pip install numpy
-pip install pandas
-
-uvicorn main:app --reload
+# commands
 uvicorn main:app --port 8086 --reload
+http://localhost:8086/
+
+locust
+http://localhost:8089/
+
+# Blogs:
+https://silverstone1903.github.io//posts/2022/04/auto-load-testing/
+https://www.sisasoft.com.tr/makine-ogrenmesi-modelinin-fast-api-ile-canliya-almaya-hazir-hale-getirilmesi/
+https://medium.com/nerd-for-tech/load-testing-using-locust-io-f3e6e247c74e
