@@ -10,6 +10,8 @@ uvicorn app:app
 uvicorn app:app --port 8086 --reload
 http://localhost:8086/
 
+uvicorn app:app --host 0.0.0.0 --port 8000
+
 
 locust
 http://localhost:8089/
