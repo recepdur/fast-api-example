@@ -1,14 +1,19 @@
 # fast-api-example
 
+
 # install libs
 pip install -r requirements.txt
 
+
 # commands
-uvicorn main:app --port 8086 --reload
+uvicorn app:app
+uvicorn app:app --port 8086 --reload
 http://localhost:8086/
+
 
 locust
 http://localhost:8089/
+
 
 # Blogs:
 https://silverstone1903.github.io//posts/2022/04/auto-load-testing/
